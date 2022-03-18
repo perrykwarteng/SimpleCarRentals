@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Car Rental System || Group Four</title>
+    <title>Car Rental System || GPRental</title>
     <link rel="stylesheet" href="Css/Media.css" />
     <link rel="stylesheet" href="Css/normalize.css" />
     <link rel="stylesheet" href="Css/mainStyles.css" />
@@ -15,29 +15,46 @@
   </head>
   <body>
     <!-- Navigation -->
-    <div class="col">
-      <nav class="navigationBar">
-        <div class="navigationBrand">
-          <h1><a href="index.html">G4Rentals</a></h1>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">GPRental</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto text-black">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Pages/rent.html"
+                >Rent</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pages/AvailableCar.html"
+                >Available Cars</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pages/Service.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pages/AboutUs.html">About Us</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <button class="btn-basic" type="submit">REGISTER</button>
+            <button class="btn-basic ms-3" type="submit">SIGN IN</button>
+          </div>
         </div>
-        <ul class="navigationList d-flex mt-5">
-          <li class="navigationItem"><a href="Pages/rent.html">Rent</a></li>
-          <li class="navigationItem">
-            <a href="Pages/AvailableCar.html">Available Cars</a>
-          </li>
-          <li class="navigationItem">
-            <a href="Pages/Service.html">Services</a>
-          </li>
-          <li class="navigationItem">
-            <a href="Pages/AboutUs.html">About Us</a>
-          </li>
-        </ul>
-        <div class="navigationButton">
-          <button class="btn-basic btn_outline">Registration</button>
-          <button class="btn-basic btn_primary ms-3">Sign In</button>
-        </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
 
     <script src="Asserts/bootstrap-files/js/bootstrap.bundle.min.js"></script>
   </body>

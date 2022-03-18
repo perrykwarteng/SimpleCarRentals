@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+:root {
+  --Primary-color: #00305c;
+  --Secondary-color: #00c4df;
+  --Accent-color: #dbfbff;
+  --font-color-white: #fff;
+  --font-color-black: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+/* Font family
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Raleway', sans-serif; */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+/* btn */
+.btn-basic {
+  padding: 1rem 2.5rem;
+  border: 0;
+  border-radius: 2.5rem;
+  font-size: 1.3rem;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+  overflow: 0;
+}
+.btn_outline {
+  border: 2px solid var(--Primary-color);
+  background-color: var(--Accent-color);
+}
+.btn_outline:hover {
+  color: var(--font-color-white);
+  border: 0;
+  background-color: var(--Secondary-color);
+}
+
+.btn_primary {
+  color: var(--font-color-white);
+  background-color: var(--Secondary-color);
+}
+.btn_primary:hover {
+  color: var(--Primary-color);
+  border: 2px solid var(--Primary-color);
+  background-color: var(--Accent-color);
+}
+
+/* Navbar */

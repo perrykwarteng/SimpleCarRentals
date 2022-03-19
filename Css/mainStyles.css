@@ -65,6 +65,7 @@ a {
 
 /* Navbar */
 .navbar {
+  position: fixed;
   height: 6rem;
   background-color: var(--Accent-color);
 }

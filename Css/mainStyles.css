@@ -35,6 +35,7 @@ a {
 .align-center {
   display: flex;
   justify-content: center;
+  align-content: center;
 }
 /* btn */
 .btn-basic {
@@ -91,6 +92,7 @@ a {
 .navbar-nav .nav-item {
   margin-left: 3rem;
 }
+
 /* hero section */
 .hero-section {
   height: 80rem;
@@ -159,6 +161,9 @@ a {
   background-color: var(--Primary-color);
   color: #fff;
 }
+.navbar .navbar-collapse {
+  background-color: var(--Accent-color);
+}
 @media screen and (min-width: 768px) {
   .hero-section {
     height: 100vh;
@@ -174,7 +179,76 @@ a {
   }
   .hero--content {
     position: relative;
-    top: -28rem;
+    top: -32rem;
     left: 6px;
   }
 }
+@media screen and (min-width: 868px) {
+  .hero--content {
+    position: relative;
+    top: -28rem;
+  }
+}
+
+.form-group {
+  position: absolute;
+  top: 20%;
+  left: 1rem;
+}
+.form-group .form-control {
+  width: 30rem;
+  height: 5rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+::placeholder {
+  color: var(--Primary-color);
+}
+.form-group .btn_primary {
+  height: 5rem;
+  border-radius: 10px;
+  background-color: var(--Primary-color);
+}
+.form-group .btn_primary:hover {
+  background: none;
+  color: var(--Primary-color);
+  border: 2px solid var(--Primary-color);
+  font-weight: 700;
+}
+.form-group .btn_primary,
+.form-group.hero--btn .btn_outline {
+  font-size: 1.5rem;
+}
+@media screen and (min-width: 560px) {
+  .form-group .form-control {
+    width: 50rem;
+    height: 5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 760px) {
+  .form-group {
+    position: relative;
+    top: 45%;
+  }
+  .form-group .form-control {
+    width: 37rem;
+    height: 5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .form-group .form-control {
+    width: 48rem;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .form-group .form-control {
+    width: 52rem;
+  }
+}
+
+/*Step section*/

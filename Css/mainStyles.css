@@ -252,3 +252,44 @@ a {
 }
 
 /*Step section*/
+.work-description .work_text {
+  font-weight: 700;
+}
+
+.work-description .work_text .work__head {
+  font-size: 2rem;
+  color: #5e5d5d;
+}
+.work-description .work_text .work__body {
+  font-size: 3rem;
+  color: var(--Primary-color);
+}
+
+.work-illustration .work__illus-bg {
+  width: 15rem;
+  height: 15rem;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  box-shadow: 0 0 15px 0.1px #01274b;
+  transition: all 0.5s ease;
+}
+.work-illustration .work__illus-bg:hover {
+  background-color: var(--Primary-color);
+  box-shadow: 0 0 15px 0.1px #01274b;
+}
+.work-illustration .work__illus-bg .work__icon {
+  width: 7rem;
+}
+.work-illustration .illus__text {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--Primary-color);
+  transition: all 0.5s ease;
+}
+.work-illustration .illus__text:hover {
+  color: var(--Secondary-color);
+}
+
+/* images slide section under the caruosel  */

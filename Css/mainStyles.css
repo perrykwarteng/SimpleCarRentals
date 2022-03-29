@@ -92,6 +92,9 @@ a {
 .navbar-nav .nav-item {
   margin-left: 3rem;
 }
+.navbar .navbar-collapse {
+  background-color: var(--Accent-color);
+}
 
 /* hero section */
 .hero-section {
@@ -161,9 +164,10 @@ a {
   background-color: var(--Primary-color);
   color: #fff;
 }
-.navbar .navbar-collapse {
-  background-color: var(--Accent-color);
+.hero-section .hero--content .hero--btn a {
+  text-decoration: none;
 }
+
 @media screen and (min-width: 768px) {
   .hero-section {
     height: 100vh;
@@ -292,4 +296,60 @@ a {
   color: var(--Secondary-color);
 }
 
-/* images slide section under the caruosel  */
+/* images slide section under the caruosel  and features  */
+.carousel {
+  width: 42rem;
+}
+.carousel .carousel-inner .carousel-item img {
+  border-radius: 1rem;
+}
+.feature--container-fluid {
+  margin-top: 4rem;
+}
+.features {
+  margin-left: 2rem;
+  display: flex;
+}
+.feature-text h1 {
+  margin-top: 9rem;
+  font-size: 5rem;
+  font-weight: 900;
+  color: #5e5d5d;
+}
+.features .feature_icon img {
+  width: 8rem;
+}
+.features .feature_content h2 {
+  color: var(--Primary-color);
+  font-size: 2rem;
+  font-weight: 900;
+}
+.features .feature_content p {
+  color: #797979;
+  font-size: 1.5rem;
+}
+@media screen and (min-width: 786px) {
+  .feature--container-fluid {
+    display: flex;
+  }
+  .carousel {
+    width: 39rem;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .feature--container-fluid {
+    display: flex;
+  }
+  .carousel {
+    width: 50rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .feature--container-fluid {
+    display: flex;
+  }
+  .carousel {
+    width: 60rem;
+  }
+}

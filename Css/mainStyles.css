@@ -194,6 +194,7 @@ a {
   }
 }
 
+/* form group component */
 .form-group {
   position: absolute;
   top: 20%;
@@ -351,5 +352,95 @@ a {
   }
   .carousel {
     width: 60rem;
+  }
+}
+
+/* Cars booking card  */
+.popular-cars h2 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.booking-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.car_book-card {
+  width: 30rem;
+  height: 42rem;
+  margin-bottom: 5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px 0.5px #01274b;
+}
+.car_book-card .car-image img {
+  width: 29rem;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  border-radius: 8px;
+}
+.car_book-card .car-content {
+  padding-left: 1rem;
+}
+.car_book-card .car-content .car_name,
+.car_book-card .car-content .car_price {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--Primary-color);
+}
+.car_book-card .car-content .car_type {
+  font-size: 1.4rem;
+  color: var(--Secondary-color);
+}
+
+.car_book-card .car-content .car_price .form-select {
+  width: 28rem;
+  height: 4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.car_book-card .car-content .car_button .btn_outline {
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .booking-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .car_book-card {
+    margin-bottom: 0;
+    margin: 5rem;
+  }
+}
+/* Callout component */
+.container-callout {
+  background-color: var(--Secondary-color);
+  padding: 4rem;
+}
+.container-callout .callout-heading {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.container-callout .callout-paragraph {
+  font-size: 2rem;
+}
+
+.container-callout .form-group {
+  position: relative;
+  left: 0;
+}
+@media screen and (min-width: 768px) {
+  .container-callout {
+    display: flex;
+  }
+  .container-callout .form-group {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .container-callout .form-group .form-control {
+    width: 80%;
   }
 }

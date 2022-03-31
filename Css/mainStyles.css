@@ -277,7 +277,7 @@ a {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  box-shadow: 0 0 15px 0.1px #01274b;
+  box-shadow: 0 0 15px 0.1px #b0b0b1;
   transition: all 0.5s ease;
 }
 .work-illustration .work__illus-bg:hover {
@@ -312,10 +312,10 @@ a {
   display: flex;
 }
 .feature-text h1 {
-  margin-top: 9rem;
-  font-size: 5rem;
-  font-weight: 900;
-  color: #5e5d5d;
+  margin-top: 5rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--Primary-color);
 }
 .features .feature_icon img {
   width: 8rem;
@@ -357,8 +357,10 @@ a {
 
 /* Cars booking card  */
 .popular-cars h2 {
-  font-size: 4rem;
+  margin: 4rem;
+  font-size: 3.5rem;
   font-weight: 700;
+  color: var(--Primary-color);
 }
 .booking-container {
   display: flex;
@@ -370,7 +372,7 @@ a {
   height: 42rem;
   margin-bottom: 5rem;
   border-radius: 8px;
-  box-shadow: 0 0 5px 0.5px #01274b;
+  box-shadow: 0 0 10px 3px #c4c6c9;
 }
 .car_book-card .car-image img {
   width: 29rem;
@@ -419,6 +421,9 @@ a {
   background-color: var(--Secondary-color);
   padding: 4rem;
 }
+.container-callout .callout-text {
+  margin-right: 6rem;
+}
 .container-callout .callout-heading {
   font-size: 4rem;
   font-weight: 700;
@@ -428,6 +433,7 @@ a {
 }
 
 .container-callout .form-group {
+  margin-top: 4rem;
   position: relative;
   left: 0;
 }
@@ -436,11 +442,67 @@ a {
     display: flex;
   }
   .container-callout .form-group {
+    margin-top: 0;
     position: relative;
     left: 0;
     top: 0;
   }
   .container-callout .form-group .form-control {
     width: 80%;
+  }
+}
+
+/* footer section */
+.footer-section {
+  background-color: var(--Primary-color);
+}
+.footer-section .footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-container .footer-brand h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+.footer-container .footer-links .footer-item {
+  font-size: 1.8rem;
+  list-style: none;
+}
+.footer-container .footer-brand,
+.footer-container .footer-links,
+.footer-container .footer-text {
+  margin-top: 2rem;
+}
+.footer-links .footer-item a {
+  color: var(--font-color-white);
+  text-decoration: none;
+}
+.footer-links .footer-item a:hover {
+  color: var(--Secondary-color);
+}
+.footer-section .footer-container .footer-text {
+  padding: 3rem;
+  text-align: center;
+  color: var(--font-color-white);
+}
+.footer-section .footer-copy {
+  font-size: 2rem;
+}
+@media screen and (min-width: 786px) {
+  .footer-section .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem;
+  }
+  .footer-container .footer-brand {
+    margin-bottom: 3.5rem;
+  }
+  .footer-container .footer-links {
+    margin-top: 4.5rem;
+  }
+  .footer-section .footer-container .footer-text {
+    margin-bottom: 2rem;
   }
 }

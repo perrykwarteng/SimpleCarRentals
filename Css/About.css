@@ -1,3 +1,112 @@
-.perry{
-    font-size: 4rem;
+/* About hero section */
+.about-hero{
+    height:60vh;
+    padding: 1rem;
+    background: url(../Images/aboutHeroCar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-hero .hero-content h2,
+.about-hero .hero-content p{
+    color: #fff;
+}
+
+.about-hero .hero-content h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.about-hero .hero-content p{
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+
+.about .about_image{
+width:100%;
+} 
+.about .about_image img{
+    width: 30rem;
+}
+.about .about-text p{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.about .about-text h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.about .dash{
+    width: 4rem;
+    height: 6px;
+    background-color: #00c4df;
+}
+.about .about_brif p{
+    font-size: 1.5rem;
+}
+.about .about-text p,.about .about-text h3,.about .about_brif p{
+    color: #00305c;
+}
+.quote{
+    background-color: #fff;
+    height: 20rem;
+}
+.quote .quote-text{
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.quote .quote-avatar img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+@media screen and (min-width:786px) {
+    .about-hero{
+        height:70vh;
+    }
+    .about-hero .hero-content h2{
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    .about-hero .hero-content p{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    
+    .about{
+        padding: 2rem;
+        display: flex;
+    }
+    .about .about_image img{
+        width: 35rem;
+    }
+    .about .about-text p{
+      font-weight: 500;
+      font-size: 2.2rem;
+    }
+    .about .about-text h3{
+        font-size: 2.8rem;
+        font-weight: 600;
+    }
+    .about .about_brif p{
+        font-size: 1.8rem;
+    }
+    .quote{
+        height: 18rem;
+    }
+    .quote .quote-text{
+        color: #000;
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    .quote .quote-avatar img{
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+    }
 }

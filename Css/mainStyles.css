@@ -482,10 +482,17 @@ a {
   color: var(--Secondary-color);
 }
 .footer-section .footer-container .footer-text {
-  padding: 3rem;
+  padding: 2.5rem;
   text-align: center;
   color: var(--font-color-white);
 }
+.footer-section .footer-container .footer-text h3 {
+  font-size: 2rem;
+}
+.footer-section .footer-container .footer-text p {
+  font-size: 1.5rem;
+}
+
 .footer-section .footer-copy {
   font-size: 2rem;
 }
@@ -497,10 +504,10 @@ a {
     padding: 2rem;
   }
   .footer-container .footer-brand {
-    margin-bottom: 3.5rem;
+    margin-bottom: 3rem;
   }
   .footer-container .footer-links {
-    margin-top: 4.5rem;
+    margin-top: 5.3rem;
   }
   .footer-section .footer-container .footer-text {
     margin-bottom: 2rem;

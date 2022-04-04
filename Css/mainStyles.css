@@ -298,7 +298,7 @@ a {
 }
 
 /* images slide section under the caruosel  and features  */
-.carousel {
+/* .carousel {
   width: 42rem;
 }
 .carousel .carousel-inner .carousel-item img {
@@ -353,7 +353,7 @@ a {
   .carousel {
     width: 60rem;
   }
-}
+} */
 
 /* Cars booking card  */
 .popular-cars h2 {

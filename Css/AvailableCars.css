@@ -1,4 +1,5 @@
 .hero-available{
+    margin-top: 5rem;
     background-color: #8eb6db;
     padding: 1rem;
 }
@@ -69,7 +70,6 @@ margin-top: 2rem;
     color: #fff;
 }
 .available-cars{
-    margin-top: 5rem;
     font-size: 2.5rem;
     font-weight: 700;
     color:#00305c;

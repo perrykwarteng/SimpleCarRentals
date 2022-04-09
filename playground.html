@@ -7,280 +7,168 @@
     <title>Playgroung</title>
     <link rel="stylesheet" href="Css/normalize.css" />
     <link rel="stylesheet" href="Css/mainStyles.css" />
-    <link rel="stylesheet" href="Css/AvailableCars.css">
+    <link rel="stylesheet" href="Css/Services.css">
     <link
       rel="stylesheet"
       href="Asserts/bootstrap-files/css/bootstrap.min.css"
     />
   </head>
   <body>
-    <!-- Available hero section -->
-    <section class="hero-available">
-      <div class="col-sm-12 col-md-5 col-lg-5">
-        <div class="car-option">
-          <div class="heading">
-            <h2>Pick your location</h2>
+    <!-- Services hero section -->
+    <div class="col-sm-12 col-md-8 col-lg-12">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images/slide1.jpg" class="carousel-image" alt="...">
           </div>
-          <form action="">
-            <div class="search-location">
-              <input class="input-text" type="text" placeholder="Your pickup location">
-            </div>
-            <div class="category">
-              <h2>Category</h2>
-              <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                <option selected>Open this select menu</option>
-                <option value="1">SUV</option>
-                <option value="2">Wagon</option>
-                <option value="3">Salon</option>
-              </select>
-            </div>
-            <div class="car-range">
-              <h2>Price Range</h2>
-              <input type="range" class="form-range" id="customRange1">
-            </div>
-            <div class="car-transmit">
-              <h2>Transmition</h2>
-              <div class="form-check">
-                <input class="form-check-input-lg" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">
-                  All
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input-lg" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                <label class="form-check-label" for="flexRadioDefault2">
-                  Automatic
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input-lg" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                <label class="form-check-label" for="flexRadioDefault2">
-                  Manual
-                </label>
-              </div>
-            </div>
-            <div class="clear-fill">
-              <button class="btn-basic btn_primary" type="button" id="button-addon2">Clear Filter</button>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-7 col-lg-7">
-        <div class="search-text">
-          <h2>Search your car here</h2>
-        </div>
-        <div class="search-car">
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Search the car of your choice" aria-label="Recipient's username" aria-describedby="button-addon2">
-            <button class="btn-basic btn_primary" type="button" id="button-addon2">Button</button>
+          <div class="carousel-item">
+            <img src="Images/slide2.jpg" class="carousel-image" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/slide3.jpg" class="carousel-image" alt="...">
           </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-    </section>
-          
-    <!-- Available cars -->
-    <section class="contianer">
-      <div class="col">
-        <h2 class="available-cars text-center">Available Cars</h2>
+    </div>
+
+    <!-- Feature section -->
+    <div class="col-12 text-center">
+      <h2 class="feature-head">Features of Our Cars</h2>
+    </div>
+    <div class="features">
+      <div class="col-sm-12 col-md-6 col-lg-6">
+       <div class="feature-car">
+         <img class="img-fluid" src="Images/csrSide.png">
+       </div>
       </div>
-      <div class="col">
-        <div class="booking-container">
-          <!-- car one -->
-          <div class="car_book-card">
-            <div class="car-image">
-              <img src="Images/slide1.jpg" />
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <!-- feature one -->
+          <div class="feature-text">
+            <img src="Images/location.svg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+           <!-- feature two -->
+          <div class="feature-text">
+            <img src="Images/location.svg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+           <!-- feature three -->
+          <div class="feature-text">
+            <img src="Images/location.svg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+           <!-- feature four -->
+           <div class="feature-text">
+            <img src="Images/location.svg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+      </div>
+    </div>
+    
+    <!-- Testimonial card-->
+      <div class="col-sm-12 col-md-12 col-lg-12 p-5">
+        <div class="testimonial-card ">
+          <div class="testimonials">
+            <div class="testimonial-icon">
+              <img src="Images/slide4.jpg" alt="">
             </div>
-            <div class="car-content">
-              <div class="car_name mt-4">
-                <p>Corola | Camer | 2017 | Salon</p>
+            <div class="testimonials-detaila">
+              <div class="head">
+                <h2>John perry</h2>
+                <p>-Web Developer-</p>
               </div>
-              <div class="car_type">
-                <p>toyota</p>
-              </div>
-              <div class="car_price">
-                <p>Price Gh Per Day</p>
-                <form action="">
-                  <select
-                    class="form-select form-select-lg"
-                    aria-label=".form-select-lg example"
-                  >
-                    <option selected>Choose your price option</option>
-                    <option value="1">Accra: Ghc350</option>
-                    <option value="2">Tema: Ghc500</option>
-                    <option value="3">Tamale: Ghc1000</option>
-                  </select>
-                </form>
-              </div>
-              <div class="car_button d-flex justify-content-center ps-0 mt-4">
-                <button class="btn-basic btn_outline">Book Now</button>
+              <div class="body">
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quae tempora sed perferendis quos consectetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil sunt doloremque voluptates aperiam officiis vero!"</p>
               </div>
             </div>
           </div>
-  
-          <!-- car two -->
-          <div class="car_book-card">
-            <div class="car-image">
-              <img src="Images/slide1.jpg" />
+
+          <!-- card two -->
+          <div class="testimonials">
+            <div class="testimonial-icon">
+              <img src="Images/slide4.jpg" alt="">
             </div>
-            <div class="car-content">
-              <div class="car_name mt-4">
-                <p>Corola | Camer | 2017 | Salon</p>
+            <div class="testimonials-detaila">
+              <div class="head">
+                <h2>John perry</h2>
+                <p>-Web Developer-</p>
               </div>
-              <div class="car_type">
-                <p>toyota</p>
-              </div>
-              <div class="car_price">
-                <p>Price Gh Per Day</p>
-                <form action="">
-                  <select
-                    class="form-select form-select-lg"
-                    aria-label=".form-select-lg example"
-                  >
-                    <option selected>Choose your price option</option>
-                    <option value="1">Accra: Ghc350</option>
-                    <option value="2">Tema: Ghc500</option>
-                    <option value="3">Tamale: Ghc1000</option>
-                  </select>
-                </form>
-              </div>
-              <div class="car_button d-flex justify-content-center ps-0 mt-4">
-                <button class="btn-basic btn_outline">Book Now</button>
+              <div class="body">
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quae tempora sed perferendis quos consectetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil sunt doloremque voluptates aperiam officiis vero!"</p>
               </div>
             </div>
           </div>
-  
-          <!-- car three -->
-          <div class="car_book-card">
-            <div class="car-image">
-              <img src="Images/slide1.jpg" />
+
+           <!-- card three -->
+           <div class="testimonials">
+            <div class="testimonial-icon">
+              <img src="Images/slide4.jpg" alt="">
             </div>
-            <div class="car-content">
-              <div class="car_name mt-4">
-                <p>Corola | Camer | 2017 | Salon</p>
+            <div class="testimonials-detaila">
+              <div class="head">
+                <h2>John perry</h2>
+                <p>-Web Developer-</p>
               </div>
-              <div class="car_type">
-                <p>toyota</p>
-              </div>
-              <div class="car_price">
-                <p>Price Gh Per Day</p>
-                <form action="">
-                  <select
-                    class="form-select form-select-lg"
-                    aria-label=".form-select-lg example"
-                  >
-                    <option selected>Choose your price option</option>
-                    <option value="1">Accra: Ghc350</option>
-                    <option value="2">Tema: Ghc500</option>
-                    <option value="3">Tamale: Ghc1000</option>
-                  </select>
-                </form>
-              </div>
-              <div class="car_button d-flex justify-content-center ps-0 mt-4">
-                <button class="btn-basic btn_outline">Book Now</button>
+              <div class="body">
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quae tempora sed perferendis quos consectetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil sunt doloremque voluptates aperiam officiis vero!"</p>
               </div>
             </div>
           </div>
-  
-          <!-- car four -->
-          <div class="car_book-card">
-            <div class="car-image">
-              <img src="Images/slide1.jpg" />
-            </div>
-            <div class="car-content">
-              <div class="car_name mt-4">
-                <p>Corola | Camer | 2017 | Salon</p>
-              </div>
-              <div class="car_type">
-                <p>toyota</p>
-              </div>
-              <div class="car_price">
-                <p>Price Gh Per Day</p>
-                <form action="">
-                  <select
-                    class="form-select form-select-lg"
-                    aria-label=".form-select-lg example"
-                  >
-                    <option selected>Choose your price option</option>
-                    <option value="1">Accra: Ghc350</option>
-                    <option value="2">Tema: Ghc500</option>
-                    <option value="3">Tamale: Ghc1000</option>
-                  </select>
-                </form>
-              </div>
-              <div class="car_button d-flex justify-content-center ps-0 mt-4">
-                <button class="btn-basic btn_outline">Book Now</button>
-              </div>
-            </div>
-          </div>
-  
-          <!-- car 5 -->
-          <div class="car_book-card">
-            <div class="car-image">
-              <img src="Images/slide1.jpg" />
-            </div>
-            <div class="car-content">
-              <div class="car_name mt-4">
-                <p>Corola | Camer | 2017 | Salon</p>
-              </div>
-              <div class="car_type">
-                <p>toyota</p>
-              </div>
-              <div class="car_price">
-                <p>Price Gh Per Day</p>
-                <form action="">
-                  <select
-                    class="form-select form-select-lg"
-                    aria-label=".form-select-lg example"
-                  >
-                    <option selected>Choose your price option</option>
-                    <option value="1">Accra: Ghc350</option>
-                    <option value="2">Tema: Ghc500</option>
-                    <option value="3">Tamale: Ghc1000</option>
-                  </select>
-                </form>
-              </div>
-              <div class="car_button d-flex justify-content-center ps-0 mt-4">
-                <button class="btn-basic btn_outline">Book Now</button>
-              </div>
-            </div>
-          </div>
-  
-          <!-- car 6 -->
-          <div class="car_book-card">
-            <div class="car-image">
-              <img src="Images/slide1.jpg" />
-            </div>
-            <div class="car-content">
-              <div class="car_name mt-4">
-                <p>Corola | Camer | 2017 | Salon</p>
-              </div>
-              <div class="car_type">
-                <p>toyota</p>
-              </div>
-              <div class="car_price">
-                <p>Price Gh Per Day</p>
-                <form action="">
-                  <select
-                    class="form-select form-select-lg"
-                    aria-label=".form-select-lg example"
-                  >
-                    <option selected>Choose your price option</option>
-                    <option value="1">Accra: Ghc350</option>
-                    <option value="2">Tema: Ghc500</option>
-                    <option value="3">Tamale: Ghc1000</option>
-                  </select>
-                </form>
-              </div>
-              <div class="car_button d-flex justify-content-center ps-0 mt-4">
-                <button class="btn-basic btn_outline">Book Now</button>
-              </div>
-            </div>
-          </div>
-          <!-- car end -->
         </div>
       </div>
-    </section>
    
+       <!-- footer section -->
+   <footer class="footer-section">
+    <div class="col-sm-12">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <h1>GPrentals</h1>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li class="footer-item">
+              <a aria-current="page" href="Pages/rent.html">Rent</a>
+            </li>
+            <li class="footer-item">
+              <a href="Pages/AvailableCar.html">Available Cars</a>
+            </li>
+            <li class="footer-item">
+              <a href="Pages/Service.html">Services</a>
+            </li>
+            <li class="footer-item">
+              <a href="Pages/AboutUs.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-text">
+          <h3>Lorem ipsum dolor sit.</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+            modi aspernatur a vitae!
+          </p>
+        </div>
+      </div>
+      <div class="footer-copy d-flex justify-content-center">
+        <p class="text-center">
+          Copyright&copy; Perry || All Rights Reserved || 2022
+        </p>
+      </div>
+    </div>
+  </footer>
     <script src="Asserts/bootstrap-files/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

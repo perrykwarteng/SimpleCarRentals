@@ -16,6 +16,59 @@
         height: 100%;
     }
 }
+/* Find section */
+.find-section{
+    margin-top: 3rem;
+    padding: 2rem;
+}
+.find-section .find-image img{
+    width: 45rem;
+    margin-top: 3rem;
+    border-radius:32% 68% 72% 28% / 37% 30% 70% 63%;
+}
+.find-section .find-text h3{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #00305c;
+}
+.find-section .find-text p{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    color: #00305c;
+  }
+  .find-text_color{
+      color: #00c4df;
+  }
+  .find-section .find-text .btn_outline{
+    margin-top: 1rem;
+    border-radius: 10px;
+    color: #00305c;
+  }
+  .find-text .btn_outline a{
+      color: #00305c;
+      text-decoration: none;
+  }
+
+
+@media screen and (min-width:786px) {
+    .find-section{
+        display: flex;
+        flex-direction: row;
+    }
+    .find-section .find-image{
+        margin-left: 6rem;
+    }
+    .find-section .find-text{
+        margin-left: 2rem;
+        padding: 2rem;
+    }
+    .find-section .find-text h3{
+      font-size: 3rem;
+    }
+    .find-section .find-text p{
+        font-size: 1.8rem;
+      }
+}
 /* Testimonial card */
 .testimonial-card{
     display: flex;
@@ -44,7 +97,7 @@
    font-weight: 600;
 }
 .testimonials-detaila .head p{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .testimonials-detaila .body p{
     margin-top: 2rem;
@@ -73,7 +126,7 @@
        font-size: 2rem;
     }
     .testimonials-detaila .head p{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     .testimonials-detaila .body p{
         font-size: 1.8rem;

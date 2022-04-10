@@ -47,6 +47,7 @@
   .find-text .btn_outline a{
       color: #00305c;
       text-decoration: none;
+      font-size: 1.8rem;
   }
 
 
@@ -140,15 +141,17 @@
     color: #00305c;
 }
 .features{
-    margin-top: 3rem;
+    margin-top: 2rem;
+    padding: 1rem;
 }
 .features .feature-text{
-    margin: 0 0 2rem 0;
+    margin: 1rem 0 2rem 0;
     display: flex;
 }
 .features .feature-text p{
     margin-top: 1.1rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    color: #00305c;
 }
 @media screen and (min-width:786px) {
     .features{
@@ -157,12 +160,15 @@
     .feature-head{
         font-size: 3rem;
     }
+    .features .feature-car{
+        margin-left: 2rem;
+    }
     .features .feature-text{
         margin: 3rem;
         display: flex;
     }
     .features .feature-text p{
         margin-top: 1.3rem;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }

@@ -39,7 +39,7 @@ a {
 }
 /* btn */
 .btn-basic {
-  padding: 1rem 2.5rem;
+  padding: 1rem 2rem;
   border: 0;
   font-size: 1.3rem;
   background: none;
@@ -94,6 +94,10 @@ a {
 }
 .navbar .navbar-collapse {
   background-color: var(--Accent-color);
+}
+.navbar-btn button a{
+  text-decoration: none;
+  color: #00305c;
 }
 
 /* hero section */
@@ -166,6 +170,7 @@ a {
 }
 .hero-section .hero--content .hero--btn a {
   text-decoration: none;
+  color: #fff;
 }
 
 @media screen and (min-width: 768px) {

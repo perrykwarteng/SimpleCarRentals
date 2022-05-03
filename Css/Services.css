@@ -16,6 +16,43 @@
         height: 100%;
     }
 }
+
+/* services section */
+.service_head{
+    margin-top: 4rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #00305c;
+}
+.services{
+ padding: 1rem; 
+}
+.services .service_text h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.services .service_text p{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.services .service_text h3,
+.services .service_text p{
+   color:#00305c;
+}
+@media screen and (min-width:700px)   {
+    .services{
+       display: flex;
+     }
+     .services .service_text{
+        padding: 1.3rem;
+    }
+    .services .service_text h3{
+        font-size: 2rem;
+    }
+    .services .service_text p{
+        font-size: 1.7rem;
+    }
+}
 /* Find section */
 .find-section{
     margin-top: 3rem;

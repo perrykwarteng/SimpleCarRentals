@@ -2,7 +2,7 @@
 .about-hero{
     height:60vh;
     padding: 1rem;
-    background: url(../Images/aboutHeroCar.jpg);
+    background: url(../Images/aboutbg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,6 +24,34 @@
     font-size: 1.9rem;
     font-weight: 500;
 }
+
+/* about content */
+.about_content{
+    padding: 2rem;
+}
+.about_content .about_head h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #00305c;
+}
+.about_content .about_body p{
+    font-size: 1.5rem;
+}
+@media screen and (min-width:786px) {
+    .about_content{
+        padding: 3rem;
+    }
+    .about_content .about_head h2{
+        font-size: 2.3rem;
+        font-weight: 600;
+        color: #00305c;
+    }
+    .about_content .about_body p{
+        font-size: 1.8rem;
+        color: #00305c;
+    }
+}
+
 
 .about .about_image{
 width:100%;
@@ -85,3 +113,4 @@ width:100%;
     }
 
 }
+

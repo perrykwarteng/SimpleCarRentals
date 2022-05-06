@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+:root {
+  --Primary-color: #00305c;
+  --Secondary-color: #00c4df;
+  --Accent-color: #dbfbff;
+  --font-color-white: #fff;
+  --font-color-black: #000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway" sans-serif;
+}
+
+body{
+    width: 100%;
+    background:#eef0f3;
+    position: relative;
+    display: flex;
+}
+
+/* Side Menu */
+#menu{
+    background: var(--Primary-color);
+    width: 300px;
+    height: 100%;
+}
+#menu .logo img{
+    width: 40px;
+    margin-right: 50px;
+}
+#menu .logo{
+    display: flex;
+    align-items: center;
+    color: var(--font-color-white);
+    padding: 30px 0 0 30px;
+}
+#menu .items{
+    margin-top: 40px;
+}
+#menu .items li{
+    list-style: none;
+    padding: 15px 0;
+    transition: .3s ease;
+}
+#menu .items li i{
+    color: var(--Accent-color);
+    width: 30px;
+    height: 20px;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 10px 0 25px;
+}
+#menu .items li a{
+    text-decoration: none;
+    color: var(--Accent-color);
+    font-weight: 300;
+    transition: .3s ease;
+}
+#menu .items li:hover{
+    background: var(--Secondary-color);
+    cursor: pointer;
+}
+#menu .items li:nth-child(1){
+    border-left: 4px solid var(--Accent-color);
+}
+#menu .items li:hover i,
+#menu .items li:hover a{
+    color: var(--Primary-color);
+}

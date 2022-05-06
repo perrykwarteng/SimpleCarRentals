@@ -96,12 +96,24 @@ a {
   background-color: var(--Accent-color);
 }
 .navbar-btn{
-  padding: 1rem 0 1rem 3rem;
+  padding: 1rem 3rem 1rem 3rem;
 }
 .navbar-btn button a{
   text-decoration: none;
   color: #00305c;
 }
+.navbar-btn .dropdown .btn_primary{
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+.navbar-btn .dropdown .dropdown-menu li{
+  font-size: 1.6rem;
+}
+.navbar-btn .dropdown .dropdown-menu .account{
+  margin: .5rem 1rem;
+  font-weight: 600;
+}
+
 
 
 /* hero section */

@@ -166,6 +166,7 @@ a {
   margin-top: 6rem;
 }
 .hero--content .hero--btn .btn_primary {
+  margin-right: 1rem;
   border-radius: 5px;
   background-color: var(--Primary-color);
 }

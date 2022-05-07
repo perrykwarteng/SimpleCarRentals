@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Asserts/bootstrap-files/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/26c7942af8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Css/testimonial.css">
+    <link rel="stylesheet" href="/Css/mainStyles.css">
+</head>
+<body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand
+              " href="/index.html">GPRental</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto text-black">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/Pages/AvailableCar.html"
+                      >Available Cars</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/Pages/Service.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/Pages/AboutUs.html">About Us</a>
+                  </li>
+                </ul>
+               
+                 
+                <div class="navbar-btn d-flex">
+             <!-- Account Section -->
+             <div class="dropdown">
+              <button class="btn-basic btn_primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Account
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li class="account">Account</li>
+                <li><a class="dropdown-item" href="/Pages/profile.html">Profile</a></li>
+                <li><a class="dropdown-item" href="/Pages/testimonial.html">Post Testimonials</a></li>
+                <li><a class="dropdown-item" href="/index.html">Logout</a></li>
+              </ul>
+            </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <section class="testimonial">
+              <div class="col-sm-12 col-md-5 col-lg-5">
+                  <h2 class="text-center">Testimonials</h2>
+                  <div class="testimonial_head">
+                      <div class="img">
+                          <img src="/Images/test2.jpg">
+                      </div>
+                      <div class="text">
+                          <h2>John Oduro</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni in omnis, odit optio recusandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, impedit?</p>
+                      </div>
+                  </div>
+
+                  <div class="testimonial_head">
+                    <div class="img">
+                        <img src="/Images/test2.jpg">
+                    </div>
+                    <div class="text">
+                        <h2>John Oduro</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni in omnis, odit optio recusandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, impedit?</p>
+                    </div>
+                </div>
+
+                <div class="testimonial_head">
+                    <div class="img">
+                        <img src="/Images/test2.jpg">
+                    </div>
+                    <div class="text">
+                        <h2>John Oduro</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni in omnis, odit optio recusandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, impedit?</p>
+                    </div>
+                </div>
+              </div>
+
+              <div class="add_testimonial col-sm-12 col-md-7 col-lg-7">
+                  <!-- <div class="col-sm-12 col-md-7 col-lg-7"> -->
+                      <div class="add  text-center">
+                          <div>
+                            <i class="fa-solid fa-circle-plus"></i>
+                          </div>
+                          <div class="add_text">
+                              <!-- Button trigger modal -->
+                              <button type="button" class="btn btn-primary" data-bs-toggle="modal"data-bs-target="#exampleModal">
+                               Add Testimonial
+                              </button>
+                              <p>Add your testimonials</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <form>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Testimonial</label>
+              </div>
+              <div class="button">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary" >Submit Testimonials</button>
+              </div>
+             
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <script src="/Asserts/bootstrap-files/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

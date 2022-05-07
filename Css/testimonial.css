@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.testimonial{
+    margin-top: 7rem;
+}
+.testimonial h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.testimonial h2,
+.testimonial .testimonial_head{
+    padding: 1rem;
+}
+.testimonial .testimonial_head{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+    background: #00c4df;
+}
+.testimonial .testimonial_head .img img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.testimonial .testimonial_head .text h2{
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+.testimonial .testimonial_head .text p{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.testimonial .add_testimonial{
+  
+    margin-top: 3rem;
+}
+.testimonial .add_testimonial .add i,
+.testimonial .add_testimonial .add_text .btn,
+.testimonial .add_testimonial .add_text p{
+    margin-top: 1rem;
+}
+.testimonial .add_testimonial .add i{
+    font-size: 4rem;
+    color: #00c4df;
+}
+.testimonial .add_testimonial .add_text .btn{
+    font-size: 1.3rem;
+}
+.testimonial .add_testimonial .add_text p{
+    font-size: 1.5rem;
+}
+.modal .modal-body textarea{
+    font-size: 1.4rem;
+}
+.modal .modal-body label{
+    font-size: 1.4rem;
+}
+.modal .modal-body .button button {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+@media screen and (min-width:786px) {
+    .testimonial{
+        display: flex;
+    }
+    .add_testimonial{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

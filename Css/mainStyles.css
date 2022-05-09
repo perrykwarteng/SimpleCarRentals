@@ -122,6 +122,7 @@ a {
 
 /* hero section */
 .hero-section {
+  width: 100vw;
   height: 80rem;
   background-image: url(/Images/heroBb.jpg);
   background-repeat: no-repeat;
@@ -197,7 +198,7 @@ a {
 @media screen and (min-width: 768px) {
   .hero-section {
     height: 100vh;
-    width: 127.6rem;
+    /* width: 127.6rem; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -214,6 +215,9 @@ a {
   }
 }
 @media screen and (min-width: 868px) {
+  /* .hero-section {
+    width: 180rem;
+  } */
   .hero--content {
     position: relative;
     top: -28rem;
@@ -262,7 +266,7 @@ a {
 @media screen and (min-width: 760px) {
   .form-group {
     position: relative;
-    top: 45%;
+    top: 35%;
   }
   .form-group .form-control {
     width: 37rem;
@@ -278,7 +282,7 @@ a {
 }
 @media screen and (min-width: 1080px) {
   .form-group .form-control {
-    width: 52rem;
+    width: 60rem;
   }
 }
 

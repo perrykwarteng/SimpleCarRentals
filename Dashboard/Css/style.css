@@ -265,3 +265,57 @@ body{
      font-size: 20px;
      display: none;
  }
+ @media screen and (max-width:769px) {
+     #menu{
+         width: 270px;
+         position: fixed;
+         left: -720px;
+         transition: .3s ease;
+     }
+
+     #interface{
+         width:100% ;
+         margin-left: 0;
+         display: inline-block;
+         transition: .3s ease;
+         
+     }
+
+     #interface .navigation{
+         width: 100%;
+     }
+
+     .values{
+     padding: 30px 30px 0 30px;
+     justify-content: flex-start;
+      }
+
+      .values .val-box{
+          padding: 16px 20px;
+          margin: 10px 20px 10px 0;
+      }
+      .board{
+          width: 92%;
+          padding: 0;
+          overflow-x: auto;
+      }
+      table{
+          width: 100%;
+          border-collapse:collapse;
+      }
+      #menu-btn{
+          display: initial;
+      }
+      #menu.active{
+          left: 0px;
+
+      }
+      #menu.active~ #interface{
+          width: calc(100% - 270px) ;
+          margin-left: 270px;
+          transition: .3s ease;
+      }
+
+
+
+ }

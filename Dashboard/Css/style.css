@@ -32,6 +32,10 @@ body{
     width: 40px;
     margin-right: 50px;
 }
+#menu .logo h2{
+    font-size: 25px;
+    font-weight: 600;
+}
 #menu .logo{
     display: flex;
     align-items: center;
@@ -45,6 +49,7 @@ body{
     list-style: none;
     padding: 15px 0;
     transition: .3s ease;
+    font-size: 15px;
 }
 #menu .items li i{
     color: var(--Accent-color);
@@ -52,7 +57,7 @@ body{
     height: 20px;
     line-height: 1.5rem;
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     margin: 0 10px 0 25px;
 }
 #menu .items li a{
@@ -271,6 +276,27 @@ body{
      font-size: 18px;
      display: none;
  }
+
+
+ /* Manage Vehicles */
+.manage{
+    width: 95%;
+    margin: 20px 0 0 30px ;
+    background: #666;
+    overflow: auto;
+    border-radius: 8px;
+}
+.manage .add_vehicle .btn_primary,
+.manage .add_brand .btn_primary{
+    border-radius: 10px;
+    background: var(--Primary-color);
+}
+.manage .add_vehicle .btn_primary,
+.manage .add_brand .btn_primary:hover{
+   border: none;
+   color: var(--font-color-white);
+}
+
  @media screen and (max-width:769px) {
      #menu{
          width: 270px;

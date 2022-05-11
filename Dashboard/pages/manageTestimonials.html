@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Testimonials</title>
+    
+    <link rel="stylesheet" href="/Asserts/bootstrap-files/css/bootstrap.min.css">
+
+    <script src="https://kit.fontawesome.com/26c7942af8.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/Dashboard/Css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+   <!-- Side Menu  -->
+   <section id="menu">
+       <div class="logo">
+           <img src="/Images/logo.png">
+           <h2>GPRentals</h2>
+       </div>
+
+       <div class="items">
+           <li><i class="fa-solid fa-list-check"></i> <a href="/Dashboard/index.html">Dashbord</a></li>
+           <li><i class="fa-solid fa-car"></i> <a href="../pages/manageVehicles.html">Manage Vehicles</a></li>
+           <li><i class="fa-solid fa-book"></i><a href="../pages/manageBookings.html">Manage Bookings</a></li>
+           <li><i class="fa-solid fa-message"></i><a href="../pages/manageTestimonials.html">Manage Testimonials</a></li>
+           <li><i class="fa-solid fa-user"></i> <a href="../pages/manageSubscribers.html">Manage Subscribers</a></li>
+           <li><i class="fa-solid fa-garage"></i><a href="../pages/vehicleBrands.html">Vehicle Brands</a></li>
+       </div>
+   </section>
+
+   <!-- Interface -->
+   <section id="interface">
+       <div class="navigation">
+           <!-- Search -->
+           <div class="n1">
+               <div>
+                   <i id="menu-btn" class="fas fa-bars"></i>
+               </div>
+            <div class="search">
+                <i class="fa fa-search"></i>
+                <form>
+                    <input type="text" placeholder="search">
+                </form>
+            </div>
+           </div>
+
+           <!-- Profile -->
+           <div class="profile">
+               <i class="far fa-bell"></i>
+               <img src="/Images/test1.jpg" alt="">
+           </div>
+       </div>
+
+       <!-- Title -->
+       <h3 class="i-name">Dashbord</h3>
+
+       <!-- Table -->
+       <div class="board">
+           <table width="100%">
+              <thead>
+                  <tr>
+                      <td>Name</td>
+                      <td>Car Brand</td>
+                      <td>Status</td>
+                      <td>Location </td>
+                      <td></td>
+                 </tr>
+              </thead>
+              <tbody>
+                     <tr>
+                         <td class="people">
+                             <p><img src="/Images/test2.jpg"></p>
+                             <div class="people-description">
+                                 <h5>John</h5>
+                                 <p>john@gmail.com</p>
+                             </div>
+                         </td>
+
+                         <td class="people-car">
+                             <h5>Jeep</h5>
+                             <p>Automatic</p>
+                         </td>
+
+                         <td class="active">
+                             <p>Delivered</p>
+                         </td>
+
+                         <td class="location">
+                             <p>Accra-Lapaz</p>
+                         </td>
+
+                         <td class="edit">
+                             <p><a href="#">edit</a></p>
+                         </td>
+
+                     </tr>
+
+                     <tr>
+                        <td class="people">
+                            <p><img src="/Images/test3.jpg"></p>
+                            <div class="people-description">
+                                <h5>Kofi</h5>
+                                <p>kofi@gmail.com</p>
+                            </div>
+                        </td>
+
+                        <td class="people-car">
+                            <h5>Benz</h5>
+                            <p>Automatic</p>
+                        </td>
+
+                        <td class="pending">
+                            <p>Pending</p>
+                        </td>
+
+                        <td class="location">
+                            <p>Accra-Circle</p>
+                        </td>
+
+                        <td class="edit">
+                            <p><a href="#">edit</a></p>
+                        </td>
+
+                    </tr>
+              </tbody>
+           </table>
+       </div>
+
+
+   </section>
+    
+    <script> 
+        $("#menu-btn").click(function(){
+           $("#menu").toggleClass("active");
+        })
+         
+    </script>
+
+<script src="/Asserts/bootstrap-files/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -69,75 +69,191 @@
 
        <!-- Manage adding vehicles -->
        <div class="manage">
-           <div class="add_vehicle">
-               <button class="btn-basic btn_primary" type="submit">Add Vehicle</button>
+           <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+               Add Vehicle
+            </button>
+
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                Post Vehicle
+             </button>
+   
+             <!-- Modal -->
+            <div class="modal " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+             <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">Add Vehicle</h5>
+                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+               <div class="modal-body">
+                <form>
+      
+                    <h4 class="mt-3">Car Brand</h4>
+                    <select class="form-select mt-2" aria-label="Default select example">
+                      <option selected value="1">Kia</option>
+                      <option value="2">Toyota</option>
+                      <option value="3">Hyundai</option>
+                      <option value="4">Lexus</option>
+                      <option value="5">Audi</option>
+                      <option value="6">BMW</option>
+                    </select>
+
+                    <h4 class="mt-3">Car Model</h4>
+                    <select class="form-select mt-2" aria-label="Default select example">
+                      <option selected value="1">A3</option>
+                      <option value="2">s class</option>
+                      <option value="3">E tron</option>
+                    </select>
+                      
+                    <h4 class="mt-3">Catigory</h4>
+                    <select class="form-select mt-2" aria-label="Default select example">
+                      <option selected value="1">SUV</option>
+                      <option value="2">Salon</option>
+                      <option value="3">Tractor</option>
+                    </select>
+
+                    <h4 class="mt-3">Transmition</h4>
+                    <select class="form-select mt-2" aria-label="Default select example">
+                      <option selected value="1">Automatic</option>
+                      <option value="2">Manual</option>
+                    </select>
+
+                    <h4 class="mt-5">Add car image</h4>
+                    <input type="file" name="picture" id="picture">
+            
+                    <button type="submit" class="btn btn-primary mt-4">Add</button>
+                  </form>
+               </div>
+                
+             </div>
            </div>
+          </div>
+          
+
+           <!-- Modal1 -->
+           <div class="modal " id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h5 class="modal-title" id="staticBackdropLabel">Post Vehicle</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+              <div class="modal-body">
+               <form>
+     
+                   <h4 class="mt-3">Car Brand</h4>
+                   <select class="form-select mt-2" aria-label="Default select example">
+                     <option selected value="1">Kia</option>
+                     <option value="2">Toyota</option>
+                     <option value="3">Hyundai</option>
+                     <option value="4">Lexus</option>
+                     <option value="5">Audi</option>
+                     <option value="6">BMW</option>
+                   </select>
+
+                   <h4 class="mt-3">Car Model</h4>
+                   <select class="form-select mt-2" aria-label="Default select example">
+                     <option selected value="1">A3</option>
+                     <option value="2">s class</option>
+                     <option value="3">E tron</option>
+                   </select>
+                     
+                   <h4 class="mt-3">Catigory</h4>
+                   <select class="form-select mt-2" aria-label="Default select example">
+                     <option selected value="1">SUV</option>
+                     <option value="2">Salon</option>
+                     <option value="3">Tractor</option>
+                   </select>
+
+                   <h4 class="mt-3">Transmition</h4>
+                   <select class="form-select mt-2" aria-label="Default select example">
+                     <option selected value="1">Automatic</option>
+                     <option value="2">Manual</option>
+                   </select>
+
+                   <h4 class="mt-5">Add Price</h4>
+                   <input type="text" name="price" id="price">
+
+                   <h4 class="mt-5">Add car image</h4>
+                   <input type="file" name="picture" id="picture">
+
+                   
+           
+                   <button type="submit" class="btn btn-primary mt-4">Post</button>
+                 </form>
+              </div>
+               
+            </div>
+          </div>
+         </div>
+
+
+
+
+
        </div>
        <!-- Table -->
        <div class="board">
            <table width="100%">
               <thead>
                   <tr>
-                      <td>Name</td>
                       <td>Car Brand</td>
-                      <td>Status</td>
-                      <td>Location </td>
+                      <td>Car Model</td>
+                      <td>Catigory</td>
+                      <td>Transmition</td>
                       <td></td>
                  </tr>
               </thead>
               <tbody>
                      <tr>
-                         <td class="people">
-                             <p><img src="/Images/test2.jpg"></p>
+                         <td class="">
+                             <p><img src="/Images/car8.jpg"></p>
                              <div class="people-description">
-                                 <h5>John</h5>
-                                 <p>john@gmail.com</p>
+                                 <h5>Mecedis Benz</h5>
                              </div>
                          </td>
 
-                         <td class="people-car">
-                             <h5>Jeep</h5>
+                         <td class="">
+                             <h5>C class</h5>
+                         </td>
+
+                         <td class="">
+                             <p>SUV</p>
+                         </td>
+
+                         <td class="">
                              <p>Automatic</p>
                          </td>
 
-                         <td class="active">
-                             <p>Delivered</p>
-                         </td>
-
-                         <td class="location">
-                             <p>Accra-Lapaz</p>
-                         </td>
-
-                         <td class="edit">
-                             <p><a href="#">edit</a></p>
+                         <td class="delete">
+                             <p><a href="#">delete</a></p>
                          </td>
 
                      </tr>
 
                      <tr>
-                        <td class="people">
-                            <p><img src="/Images/test3.jpg"></p>
+                        <td class="">
+                            <p><img src="/Images/car13.jpg"></p>
                             <div class="people-description">
-                                <h5>Kofi</h5>
-                                <p>kofi@gmail.com</p>
+                                <h5>Toyota</h5>
                             </div>
                         </td>
 
-                        <td class="people-car">
-                            <h5>Benz</h5>
+                        <td class="">
+                            <h5>Corolla LE</h5>
+                        </td>
+
+                        <td class="">
+                            <p>Salon</p>
+                        </td>
+
+                        <td class="">
                             <p>Automatic</p>
                         </td>
 
-                        <td class="pending">
-                            <p>Pending</p>
-                        </td>
-
-                        <td class="location">
-                            <p>Accra-Circle</p>
-                        </td>
-
-                        <td class="edit">
-                            <p><a href="#">edit</a></p>
+                        <td class="delete">
+                            <p><a href="#">delete</a></p>
                         </td>
 
                     </tr>

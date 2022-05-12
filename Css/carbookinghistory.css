@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.testimonial{
+    margin-top: 7rem;
+    padding: 5rem;
+}
+.testimonial h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.testimonial h2,
+.testimonial .testimonial_head{
+    padding: 1rem;
+}
+.testimonial .testimonial_head{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0.1px #b0b0b1;
+}
+.testimonial .testimonial_head .img img{
+    width: 24rem;
+    height: 20rem;
+    border-radius: 10px;
+    margin-right: 1rem;
+    object-fit: cover;
+}
+.testimonial .testimonial_head .text h2{
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+.testimonial .testimonial_head .text p{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+
+@media screen and (min-width:786px) {
+    .testimonial .booking_history{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

@@ -547,7 +547,7 @@ a {
     margin-bottom: 4.5rem;
   }
   .footer-container .footer-links {
-    margin-top: 5.3rem;
+    margin-top: 1rem;
   }
   .footer-section .footer-container .footer-text {
     margin-bottom: 4rem;
@@ -556,3 +556,39 @@ a {
 
 /* Available cars modals */
   
+.book {
+  display: flex;
+}
+.book .car_picture{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.book .car_picture img{
+  width: 20rem;
+}
+.book .car h2{
+  font-size: 20px;
+  color: #00305c;
+}
+.book .car  p.about{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom:1rem;   
+}
+.book .car p{
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #00305c;
+  font-weight: 300;
+}
+.book .car .btn_primary{
+  border-radius:10px ;
+  background: #00305c;
+}
+.book .car .btn_primary:hover{
+  background: #00305c;
+  color: #fff;
+}
